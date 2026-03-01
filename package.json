@@ -1,0 +1,35 @@
+{
+  "name": "repo-template-web-cms-next",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generalized CMS-driven web template (Next.js + TypeScript).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "16.1.0",
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "eslint": "9.21.0",
+    "eslint-config-next": "15.2.0",
+    "jsdom": "26.0.0",
+    "prettier": "3.5.2",
+    "typescript": "5.8.2",
+    "vitest": "3.0.8"
+  },
+  "packageManager": "pnpm@10.6.3"
+}

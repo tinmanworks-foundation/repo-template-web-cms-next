@@ -14,6 +14,13 @@ Generalized CMS-driven site template using Next.js and TypeScript.
 - A provider-agnostic CMS frontend skeleton.
 - Includes neutral content contracts and adapter boundaries.
 
+## Use This Template
+
+1. Click **Use this template** on GitHub to create a new repository.
+2. Rename package/module identifiers and update ownership metadata.
+3. Review `.env.example` and update environment configuration for your target project.
+4. Run validation and CI checks before first release.
+
 ## Quickstart
 
 ### Prerequisites
